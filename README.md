@@ -1,13 +1,28 @@
 # Experimenting with Python imports
 
-## Purpose
+## Experiment 1
+
+### Purpose
 
 To check if it's possible to capture all imported modules in one
 process/runtime/machine and import exactly the same modules in another.
 
-## Commands 
+### Commands 
 
 ```bash
 $ python dump_modules_to_json.py
 $ python import_modules_from_json.py
+```
+
+## Experiment 2
+
+### Purpose
+
+To check if it is possible to capture the globals of caller.
+
+### Commands
+
+```bash
+$ python obj_caller.py
+$ python func_caller.py
 ```
