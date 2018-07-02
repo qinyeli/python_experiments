@@ -2,7 +2,7 @@ import callee
 
 class Caller(object):
   def callback(self):
-    return 'callback in obj_call'
+    return 'callback in obj_caller'
   
   def call(self):
     callee.func()
