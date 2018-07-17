@@ -26,3 +26,15 @@ To check if it is possible to capture the globals of caller.
 $ python obj_caller.py
 $ python func_caller.py
 ```
+
+## Experiment 3
+
+### Purpose
+
+To play around with context manager.
+
+### Commands
+
+```bash
+$ python context_manager.py
+```
